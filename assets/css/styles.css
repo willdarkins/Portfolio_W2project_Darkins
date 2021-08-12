@@ -16,6 +16,16 @@ header {
     position: sticky;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
 h1 {
     color: whitesmoke;
     font-family:'Josefin Sans', sans-serif;
@@ -74,6 +84,30 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     background-attachment: fixed;
   }
+
+  .hero-bio {
+      width: 30%;
+      text-align: left;
+      justify-self: left;
+      margin: 3% 7% 3% 0;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+  .bio-name {
+      font-size: 40px;
+  }
+  .hero-bio p {
+    font-size: 25px;
+  }
+
+  .hero img {
+    max-width   : 100%;
+    height: auto;
+    margin: 3.5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(59, 59, 59, 0.3); 
+  }
+
