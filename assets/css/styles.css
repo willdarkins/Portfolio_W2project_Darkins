@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: rgb(4, 4, 59);
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+nav li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li a:hover {
+    color: rgb(4, 4, 59);
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+
+
+.fa {
+    justify-content: space-evenly;;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color:whitesmoke;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
