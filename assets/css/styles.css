@@ -119,7 +119,12 @@ nav li a:hover {
       display: flex;
       align-items: center;
       background-color: whitesmoke;
-      color: rgb(4, 4, 59);
+  }
+
+  #on-air {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
   }
 
   .icon-img {
@@ -143,10 +148,13 @@ nav li a:hover {
   .content-container img {
       max-width: 100%;
       height: auto;
-      border: 5px solid;
-      border-color: darkblue;
       opacity: 0.3;
       transition: .5s ease;
+  }
+
+  .border {
+    border: 5px solid;
+    border-color: darkblue;
   }
 
   .container-title {
@@ -155,11 +163,9 @@ nav li a:hover {
     padding: 10px;
     font-family:'Josefin Sans', sans-serif;
     font-size: 50px;
-    border-bottom: 10px solid;
     max-width: 22%;
     margin-bottom: 3%;
-    color: whitesmoke;
-    background-color: darkblue;
+    color: darkblue;
   }
 
   .project-panels {
@@ -200,3 +206,14 @@ nav li a:hover {
   .content-container img:hover {
       opacity: 1;
   }
+
+.content-container iframe {
+    opacity: 0.3;
+    transition: .5s ease;
+}
+
+  .content-container iframe:hover {
+    opacity: 1;
+}
+
+
