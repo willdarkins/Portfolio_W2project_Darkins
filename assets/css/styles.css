@@ -11,7 +11,7 @@
 }
 
 header {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,14 @@ header {
     background-color: rgb(4, 4, 59);
     position: -webkit-sticky;
     position: sticky;
+    width: 100%;
+}
+
+.container-fluid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10px;
 }
 
 h1 {
@@ -119,7 +127,7 @@ nav li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0 20px 0;
-      
+
   }
 
   #on-air {
@@ -157,6 +165,12 @@ nav li a:hover {
       flex-grow: 1;
       border-left: 10px solid darkblue;
   }
+  .content-container-bark {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+}
 
   .content-container img {
       max-width: 100%;
@@ -165,6 +179,14 @@ nav li a:hover {
       background-color: royalblue;
       transition: .5s ease;
   }
+
+  .content-container-bark img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.3;
+    background-color: royalblue;
+    transition: .5s ease;
+}
 
   .border {
     margin: 0;
@@ -182,14 +204,14 @@ nav li a:hover {
 
   .margin-right {
       margin-right: 20px;
-      
+
   }
   .project-panels {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      padding: 20px;    
+      padding: 20px;
       position: relative;
       color: var (darkblue);
       border-radius: 30px;
@@ -219,6 +241,18 @@ nav li a:hover {
       text-shadow: 0 0 10px rgba(225,225,225, 0.5);
   }
 
+  .bark-label {
+    position: absolute;
+    left: 71%;
+    bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    background-color:darkblue;
+    padding: 20px;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(225,225,225, 0.5);
+}
+
     .content-container img:hover {
       opacity: 1;
   }
@@ -230,6 +264,19 @@ nav li a:hover {
 
   .content-container iframe:hover {
     opacity: 1;
+}
+
+.content-container-bark img:hover {
+    opacity: 1;
+}
+
+.content-container-bark iframe {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.content-container-bark iframe:hover {
+  opacity: 1;
 }
 
 
@@ -271,8 +318,13 @@ nav li a:hover {
     position: sticky;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
  }
- 
+
 @media screen and (max-width: 1020px) {
+    header {
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+    }
     .sidebar {
         justify-content: center;
         border-bottom: 10px solid darkblue;
@@ -349,6 +401,6 @@ nav li a:hover {
         position: relative;
 
     }
-} 
+}
 
 @media screen and (max-width: 575px) {}

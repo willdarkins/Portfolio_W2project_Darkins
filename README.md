@@ -26,9 +26,10 @@ The following benchmarks must be met in order to meet the employer's expections 
 ***
 In the repository folder, you'll find .html & .css source code, including original image files associated to content.
 
-**IMPORTANT NOTE**
+**IMPORTANT NOTES**
 * Due to limited work experience at this time, the develop only has two applications to present.
 * To suppliment the missing project, another section, "ON-AIRE" was created to display podcast experience, and proper programming of iframe elements.
+* 
 
 ## Mockup
 ***
