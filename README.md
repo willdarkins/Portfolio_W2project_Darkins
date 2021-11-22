@@ -34,3 +34,8 @@ In the repository folder, you'll find .html & .css source code, including origin
 ## Mockup
 ***
 Below is a short video diplaying the functionality of all links:
+
+
+https://user-images.githubusercontent.com/84754257/130119692-e7ca3630-0097-4df8-9aa9-b834330f851b.mp4
+
+
